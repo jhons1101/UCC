@@ -1,0 +1,23 @@
+.h2-action-blog {
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+.h2-action-blog-name {
+    font-weight: 200;
+    color: var(--color-secondary);
+}
+
+.label-info {
+    background-color: var(--color-primary);
+    padding: 2px 5px;
+    border-radius: 4px; 
+}
+
+a:visited {
+    color: unset !important;
+}
+
+a {
+    text-decoration: unset !important;
+}
