@@ -10,7 +10,6 @@
                 <p class="text-justify">
                   La UCC nace por el voto de la mujer, en los temas que nos afectan y en busca de la reivindicación de nuestros derechos.
                 </p>
-                <!-- <a class="cta-btn align-self-start" href="#">Call To Action</a> -->
             </div>
             <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
                 <div class="img">
@@ -25,7 +24,7 @@
   <div class="container-fluid p-0" data-aos="fade-up">
     <div class="row g-0">
       <div class="col-lg-6 video-play position-relative">
-        <a href="https://www.youtube.com/watch?v=GiaSfTcimd0" class="glightbox play-btn"></a>
+        <a href="{{$YTLink->value}}" class="glightbox play-btn"></a>
       </div>
       <div class="col-lg-6">
         <div class="content d-flex flex-column justify-content-center h-100">
@@ -41,7 +40,6 @@
               2. Intereses estratégicos. (Calificación, crecimiento, participación, autonomía, empoderamiento).
             </li>
           </ul>
-          <!-- <a href="#" class="read-more align-self-start"><span>Read More</span><i class="bi bi-arrow-right"></i></a> -->
         </div>
       </div>
     </div>

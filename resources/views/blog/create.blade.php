@@ -41,7 +41,7 @@
                 </div>
                 <div class="row mt-2">
                     <div class="col-sm-12 text-center">
-                        <button class="btn btn-primary" type="submit" name="action">
+                        <button class="btn btn-primary greenbg" type="submit" name="action">
                             Guardar &nbsp; 
                             <i class="bi bi-save-fill"></i>
                         </button>

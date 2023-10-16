@@ -15,7 +15,6 @@ class BlogController extends Controller
      */
     public function index(Request $request)
     {
-        // dd("pagina publica");
         $blogs = DB::table('blogs as b')
                 ->select('b.*', 'u.name')
                 ->join('users as u', 'b.user_id', '=', 'u.id')
@@ -123,12 +122,6 @@ class BlogController extends Controller
      */
     public function edit(string $slug)
     {
-
-        // if(!$this->validateSessionUser($request)){
-        //     return back()->withErrors([
-        //         'msg' => trans('auth.401')
-        //     ]);
-        // }
         
         // Validamos que exista el blog segun el  identificador slug
         $existsBlog = Blog::where('slug', '=', $slug)->firstOrFail();

@@ -3,7 +3,7 @@
     <div class="container-fluid d-flex align-items-center justify-content-between">
 
       <a href="{{ asset('/') }}" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
-        <img src="{{ asset('/img/uccviolet.png')}}" alt="UCC Logo">
+        <img src="{{ asset('/img/ucc-logo.png')}}" alt="UCC Logo">
         <h1>Unión de Ciudadanas de Colombia<span>.</span></h1>
       </a>
 

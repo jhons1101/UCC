@@ -43,7 +43,7 @@
 </head>
 <body>
     <div class="title">
-        <img src="{{ asset('img/uccviolet.png') }}" alt="UCC Cali" width="100px">
+        <img src="{{ asset('img/ucc-logo.png') }}" alt="UCC Cali" width="100px">
         <h2 class="">Unión de Ciudadanas <br />de Colombia - Seccional Cali</h2>
     </div>
     <br />

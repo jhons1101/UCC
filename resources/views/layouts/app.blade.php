@@ -11,14 +11,13 @@
     <link href="{{ asset('/css/app.css')}}" rel="stylesheet">
     <link rel="dns-prefetch" href="//fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 <body>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm" style="padding:12px 0;">
             <div class="container">
                 <a class="navbar-brand" href="{{ asset('/') }}" style="font-size: 1.5em">
-                    <img src="{{ asset('/img/uccviolet.png')}}" alt="UCC Logo" width="50px">
+                    <img src="{{ asset('/img/ucc-logo.png')}}" alt="UCC Logo" width="50px">
                     {{ config('app.name', 'APP') }}
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -26,17 +25,14 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav me-auto">
-
-                    </ul>
-
-                    <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
                         @guest
                             &nbsp;
                         @else
-                            <a class="btn btn-primary" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                            <li class="nav-item mr-4">
+                                <a class="nav-link" aria-current="page" href="{{ asset('/parametros') }}" >Parametrización &nbsp; | &nbsp; </a>
+                            </li>
+                            <a class="btn btn-primary greenbg" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                 Cerrar sesión
                             </a>
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">

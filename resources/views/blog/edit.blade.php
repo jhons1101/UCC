@@ -45,12 +45,12 @@
                 </div>
                 <div class="row mt-2">
                     <div class="col-sm-12 text-center">
-                        <button class="btn btn-secondary" name="action">
+                        <button class="btn btn-primary" name="action">
                             <a href="{{ asset('home') }}">
                                 <i class="bi bi-backspace-fill"></i> &nbsp; Volver
                             </a>
                         </button>
-                        <button class="btn btn-primary" type="submit" name="action">
+                        <button class="btn btn-primary greenbg" type="submit" name="action">
                             Guardar &nbsp; 
                             <i class="bi bi-save-fill"></i>
                         </button>

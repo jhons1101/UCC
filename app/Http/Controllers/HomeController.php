@@ -30,9 +30,21 @@ class HomeController extends Controller
                 ->orderBy('b.updated_at', 'desc')
                 ->paginate(3);
 
+        $IGLink = DB::table('parameters as p')
+                ->select('p.*')
+                ->where('id', '=', 1)
+                ->get();
+
+        $YTLink = DB::table('parameters as p')
+                ->select('p.*')
+                ->where('id', '=', 2)
+                ->get();
+
         return View(
             'app', array(
-                'blogs'    => $blog
+                'blogs'     => $blog,
+                'IGLink'    => $IGLink[0],
+                'YTLink'    => $YTLink[0]
             )
         );
     }

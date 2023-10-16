@@ -40,7 +40,7 @@
     <li class="nav-item col-6 col-md-4 col-lg-2">
       <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-5">
         <i class="bi bi-easel color-blue"></i>
-        <h4>Adipiscing</h4>
+        <h4>5. Escuela Política</h4>
       </a>
     </li><!-- End Tab 5 Nav -->
 
@@ -107,11 +107,40 @@
     <div class="tab-pane" id="tab-4">
       <div class="row gy-4">
         <div class="col-lg-8 order-2 order-lg-1">
-          <h3>Nuestra sede</h3>
+          <h3>Información sección Sede</h3>
+          <p>
+            Estamos ubicadas en el centro de Cali. Funcionamos como el Punto Focal de la Ruta Pacífica de las Mujeres Valle del Cauca, organización hermana que ejecuta actividades en la Sede y con la cual ejecutamos acciones conjuntas. Además, abrimos nuestras puertas a mujeres y organizaciones aliadas para ejecutar sus actividades profesionales en nuestra sede bajo la modalidad de co-working.
+          </p>
+          <p><b><i>Encuéntranos en la dirección:</i></b></p>
+          <ul>
+            <li><i class="bi bi-check-circle-fill"></i> Calle 6 # 10-21 B/ Santa Rosa - Cali, Valle del Cauca</li>
+            <li><i class="bi bi-check-circle-fill"></i> Email. uniondeciudadanas@hotmail.com</li>
+            <li><i class="bi bi-check-circle-fill"></i> Teléfono: 3137150027 - 3163291215</li>
+          </ul>
           
         </div>
         <div class="col-lg-4 order-1 order-lg-2 text-center">
-          <img src="{{ asset('/img/team/ucc-cali_4.jpg') }}" alt="Nuestra sede" class="img-fluid">
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="{{ asset('/img/team/ucc-cali_4.jpg') }}" class="d-block w-100" alt="Imagen sede 1">
+              </div>
+              <div class="carousel-item">
+                <img src="{{ asset('/img/team/ucc-cali_6.jpg') }}" class="d-block w-100" alt="Imagen sede 2">
+              </div>
+              <div class="carousel-item">
+                <img src="{{ asset('/img/team/ucc-cali_7.jpg') }}" class="d-block w-100" alt="Imagen sede 3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
       </div>
     </div><!-- End Tab Content 4 -->
@@ -119,24 +148,16 @@
     <div class="tab-pane" id="tab-5">
       <div class="row gy-4">
         <div class="col-lg-8 order-2 order-lg-1">
-          <h3>Adipiscing</h3>
+          <h3>Escuela Política</h3>
           <p>
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
+            Hace más de 65 años, la Unión de Ciudadanas de Colombia inicia sus esfuerzos en el reconocimiento y ejercicio de la ciudadanía y la participación política de las mujeres en el país. Como consecuencia, encuentra el reto de formar y empoderar a las mujeres colombianas alrededor de lo político, para el que genera la Escuela de Ciudadanía Plena.
           </p>
           <p class="fst-italic">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua.
+            Esta escuela, que han sido escuelas, en plural, pues históricamente han tomado distintas formas de intervención, ejes teóricos y enfoques metodológicos, tiene como objetivo principal  abordar lo político  desde las vivencias personales y las diferentes dimensiones de la vida de las mujeres para propiciar un camino de empoderamiento político y ciudadanía plena de las mujeres del Valle del Cauca y Colombia.
           </p>
-          <ul>
-            <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-            <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-            <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-          </ul>
         </div>
         <div class="col-lg-4 order-1 order-lg-2 text-center">
-          <img src="{{ asset('/img/team/ucc-cali_1.jpg') }}" alt="" class="img-fluid">
+          <img src="{{ asset('/img/team/ucc-cali_5.jpg') }}" alt="" class="img-fluid">
         </div>
       </div>
     </div><!-- End Tab Content 5 -->
@@ -163,9 +184,6 @@
         <div class="swiper-slide"><img src="{{ asset('/img/clients/client-3.png') }}" class="img-fluid" alt=""></div>
         <div class="swiper-slide"><img src="{{ asset('/img/clients/client-4.png') }}" class="img-fluid" alt=""></div>
         <div class="swiper-slide"><img src="{{ asset('/img/clients/client-5.png') }}" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="{{ asset('/img/clients/client-6.png') }}" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="{{ asset('/img/clients/client-7.png') }}" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="{{ asset('/img/clients/client-8.png') }}" class="img-fluid" alt=""></div>
       </div>
     </div>
 

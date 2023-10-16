@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\ParametrosController;
 use App\Http\Controllers\EmailController;
 
 /*
@@ -20,4 +21,6 @@ Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('in
 Route::get('home', [App\Http\Controllers\BlogController::class, 'admin'])->name('admin');
 Route::post('/contact', [App\Http\Controllers\EmailController::class, 'contact'])->name('contact');
 Route::resource('blog', BlogController::class);
+Route::resource('parametros', ParametrosController::class);
 Auth::routes();
+// 

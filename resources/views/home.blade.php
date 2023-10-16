@@ -8,7 +8,7 @@
                 <span class="h2-action-blog">Listado de blogs</span>
             </h2>
             <a href="/blog/create">
-                <button class="btn btn-primary float-end mb-3" name="action">
+                <button class="btn btn-primary float-end mb-3 greenbg" name="action">
                     Nuevo blog &nbsp; 
                     <i class="bi bi-plus-lg"></i>
                 </button>

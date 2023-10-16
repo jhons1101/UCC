@@ -60,7 +60,7 @@
           <div class="form-group mt-3">
             <textarea class="form-control input-rec" name="message" placeholder="Mensaje" required rows="5"></textarea>
           </div>
-          <div class="text-center"><button type="submit" class="btn btn-primary input-rec input-lg mt-5 btn-lg">Enviar Mensaje</button></div>
+          <div class="text-center"><button type="submit" class="btn btn-primary input-rec input-lg mt-5 btn-lg greenbg">Enviar Mensaje</button></div>
         </form>
       </div>
     </div>
